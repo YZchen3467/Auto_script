@@ -1,0 +1,3 @@
+    original_text_path = "./owl_original_reference.txt"
+    srt_file_path = "./owl.srt"
+    output_file_path = "./final_corrected_srt_with_punctuation.srt"
