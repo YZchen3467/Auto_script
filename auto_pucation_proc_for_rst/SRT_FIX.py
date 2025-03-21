@@ -85,10 +85,10 @@ def convert_txt_to_srt(txt_filepath, srt_filepath):
 
 def main():
     parser = argparse.ArgumentParser(description="Process any original text and SRT file.")
-    parser.add_argument("original_text ", help="Path to the original text file")
-    parser.add_argument("srt_file ", help="Path to the SRT file")
-    parser.add_argument("output_txt ", help="Path to save the output TXT file")
-    parser.add_argument("output_srt ", help="Path to save the output RST file")
+    parser.add_argument("original_text", help="Path to the original text file")
+    parser.add_argument("srt_file", help="Path to the SRT file")
+    parser.add_argument("output_txt", help="Path to save the output TXT file")
+    parser.add_argument("output_srt", help="Path to save the output RST file")
     
     args = parser.parse_args()
     
